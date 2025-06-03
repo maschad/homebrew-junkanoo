@@ -8,7 +8,8 @@ class Junkanoo < Formula
   depends_on "rust" => :build
 
   def install
-    bin.install "junkanoo"
+    system "cargo", "build", "--release"
+    bin.install "target/release/junkanoo"
   end
 
   test do
