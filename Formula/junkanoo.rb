@@ -11,6 +11,6 @@ class Junkanoo < Formula
   end
 
   test do
-    system "#{bin}/junkanoo", "--version"
+    system bin/"junkanoo", "--version"
   end
 end
