@@ -1,8 +1,8 @@
 class Junkanoo < Formula
   desc "Decentralized ephemeral file sharing CLI browser"
   homepage "https://github.com/maschad/junkanoo"
-  url "https://github.com/maschad/junkanoo/archive/refs/tags/v1.2.1.tar.gz"
-  sha256 "1e447133eb1b7033427b689c437e9f769b922ec8d89de5797e03859b2d3f7ee7"
+  url "https://github.com/maschad/junkanoo/archive/refs/tags/v1.2.2.tar.gz"
+  sha256 "433da011100899c8054a40572b0a8d77d8c4ae493e8306e1efb40d89fb5a6adc"
   head "https://github.com/maschad/junkanoo.git", branch: "main"
 
   depends_on "rust" => :build
